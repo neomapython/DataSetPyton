@@ -1,0 +1,259 @@
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="Pierre Mendras" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style2 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:225.69999741pt }
+      table.sheet0 col.col1 { width:50.83333275pt }
+      table.sheet0 col.col2 { width:50.83333275pt }
+      table.sheet0 col.col3 { width:50.83333275pt }
+      table.sheet0 col.col4 { width:50.83333275pt }
+      table.sheet0 col.col5 { width:50.83333275pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:30pt }
+      table.sheet0 tr.row12 { height:15pt }
+      table.sheet0 tr.row17 { height:15pt }
+      table.sheet0 tr.row22 { height:15pt }
+      table.sheet0 tr.row23 { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">LENOVO GROUP _ BALANCE SHEET                           Millions of US $ except per share data</td>
+            <td class="column1 style7 n">2021</td>
+            <td class="column2 style7 n">2020</td>
+            <td class="column3 style7 n">2019</td>
+            <td class="column4 style7 n">2018</td>
+            <td class="column5 style7 n">2017</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style0 s">Cash On Hand</td>
+            <td class="column1 style3 n">4136.557</td>
+            <td class="column2 style3 n">3246.069</td>
+            <td class="column3 style3 n">3756.283</td>
+            <td class="column4 style3 n">2804.036</td>
+            <td class="column5 style3 n">1957.213</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style0 s">Receivables</td>
+            <td class="column1 style3 n">11445.360</td>
+            <td class="column2 style3 n">8652.268</td>
+            <td class="column3 style3 n">6459.476</td>
+            <td class="column4 style3 n">6847.127</td>
+            <td class="column5 style3 n">5199.925</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style0 s">Inventory</td>
+            <td class="column1 style3 n">8300.658</td>
+            <td class="column2 style3 n">6380.576</td>
+            <td class="column3 style3 n">4946.914</td>
+            <td class="column4 style3 n">3434.660</td>
+            <td class="column5 style3 n">3791.691</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style0 s">Pre-Paid Expenses</td>
+            <td class="column1 style3 null"></td>
+            <td class="column2 style3 null"></td>
+            <td class="column3 style3 null"></td>
+            <td class="column4 style3 null"></td>
+            <td class="column5 style3 null"></td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style0 s">Other Current Assets</td>
+            <td class="column1 style3 n">5014.292</td>
+            <td class="column2 style3 n">4977.501</td>
+            <td class="column3 style3 n">3559.239</td>
+            <td class="column4 style3 n">3753.926</td>
+            <td class="column5 style3 n">4703.335</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style0 s">Total Current Assets</td>
+            <td class="column1 style3 n">28996.860</td>
+            <td class="column2 style3 n">23335.350</td>
+            <td class="column3 style3 n">18733.440</td>
+            <td class="column4 style3 n">16886.200</td>
+            <td class="column5 style3 n">15663.320</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style0 s">Property, Plant, And Equipment</td>
+            <td class="column1 style3 n">1636.629</td>
+            <td class="column2 style3 n">1573.875</td>
+            <td class="column3 style3 n">1398.440</td>
+            <td class="column4 style3 n">1430.817</td>
+            <td class="column5 style3 n">1304.751</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style0 s">Long-Term Investments</td>
+            <td class="column1 style3 n">1508.527</td>
+            <td class="column2 style3 n">955.264</td>
+            <td class="column3 style3 n">550.943</td>
+            <td class="column4 style3 n">520.849</td>
+            <td class="column5 style3 n">408.743</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style0 s">Goodwill And Intangible Assets</td>
+            <td class="column1 style3 n">8066.785</td>
+            <td class="column2 style3 n">8405.005</td>
+            <td class="column3 style3 n">7984.582</td>
+            <td class="column4 style3 n">8324.575</td>
+            <td class="column5 style3 n">8514.504</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style0 s">Other Long-Term Assets</td>
+            <td class="column1 style3 n">424.241</td>
+            <td class="column2 style3 n">275.359</td>
+            <td class="column3 style3 n">284.703</td>
+            <td class="column4 style3 n">731.042</td>
+            <td class="column5 style3 n">689.387</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style0 s">Total Long-Term Assets</td>
+            <td class="column1 style2 n">15513.58</td>
+            <td class="column2 style2 n">14655.28</td>
+            <td class="column3 style2 n">13394.73</td>
+            <td class="column4 style2 n">13102.28</td>
+            <td class="column5 style2 n">12830.85</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style4 s">Total Assets</td>
+            <td class="column1 style5 n">44510.45</td>
+            <td class="column2 style5 n">37990.63</td>
+            <td class="column3 style5 n">32128.17</td>
+            <td class="column4 style5 n">29988.48</td>
+            <td class="column5 style5 n">28494.17</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style0 s">Total Current Liabilities</td>
+            <td class="column1 style2 n">32758.73</td>
+            <td class="column2 style2 n">27371.64</td>
+            <td class="column3 style2 n">23258.12</td>
+            <td class="column4 style2 n">20490.34</td>
+            <td class="column5 style2 n">19459.72</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style0 s">Long Term Debt</td>
+            <td class="column1 style3 n">2633.348</td>
+            <td class="column2 style3 n">3299.582</td>
+            <td class="column3 style3 n">1564.619</td>
+            <td class="column4 style3 n">2426.770</td>
+            <td class="column5 style3 n">2648.725</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style0 s">Other Non-Current Liabilities</td>
+            <td class="column1 style3 n">1516.777</td>
+            <td class="column2 style3 n">1702.469</td>
+            <td class="column3 style3 n">1580.136</td>
+            <td class="column4 style3 n">1502.247</td>
+            <td class="column5 style3 n">612.240</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style0 s">Total Long Term Liabilities</td>
+            <td class="column1 style3 n">6357.007</td>
+            <td class="column2 style3 n">7008.461</td>
+            <td class="column3 style3 n">4810.751</td>
+            <td class="column4 style3 n">5401.079</td>
+            <td class="column5 style3 n">4488.461</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style4 s">Total Liabilities</td>
+            <td class="column1 style5 n">39115.74</td>
+            <td class="column2 style5 n">34380.10</td>
+            <td class="column3 style5 n">28068.87</td>
+            <td class="column4 style5 n">25891.42</td>
+            <td class="column5 style5 n">23948.18</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style0 s">Common Stock Net</td>
+            <td class="column1 style3 n">3203.913</td>
+            <td class="column2 style3 n">3203.913</td>
+            <td class="column3 style3 n">3185.923</td>
+            <td class="column4 style3 n">3185.923</td>
+            <td class="column5 style3 n">3185.923</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style0 s">Retained Earnings (Accumulated Deficit)</td>
+            <td class="column1 style3 n">1786.726</td>
+            <td class="column2 style3 n">355.123</td>
+            <td class="column3 style3 n">11.619</td>
+            <td class="column4 style3 n">210.530</td>
+            <td class="column5 style3 n">332.697</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style0 s">Comprehensive Income </td>
+            <td class="column1 style2 null"></td>
+            <td class="column2 style2 null"></td>
+            <td class="column3 style2 null"></td>
+            <td class="column4 style2 null"></td>
+            <td class="column5 style2 null"></td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style0 s">Other Share Holders Equity</td>
+            <td class="column1 style2 null"></td>
+            <td class="column2 style2 null"></td>
+            <td class="column3 style2 n">993.67</td>
+            <td class="column4 style2 n">993.67</td>
+            <td class="column5 style2 n">993.67</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style4 s">Share Holder Equity</td>
+            <td class="column1 style6 n">5394.701</td>
+            <td class="column2 style6 n">3610.533</td>
+            <td class="column3 style6 n">4059.295</td>
+            <td class="column4 style6 n">4097.063</td>
+            <td class="column5 style6 n">4545.988</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style4 s">Total Liabilities And Share Holders Equity</td>
+            <td class="column1 style5 n">44510.45</td>
+            <td class="column2 style5 n">37990.63</td>
+            <td class="column3 style5 n">32128.17</td>
+            <td class="column4 style5 n">29988.48</td>
+            <td class="column5 style5 n">28494.17</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>
